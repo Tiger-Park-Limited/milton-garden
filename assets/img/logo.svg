@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" fill="#F5EFE0"/>
+  <circle cx="540" cy="540" r="500" fill="#1F4D2E"/>
+  <circle cx="540" cy="540" r="470" fill="none" stroke="#D9B864" stroke-width="6"/>
+
+  <!-- Tree canopy -->
+  <g fill="#7FB069">
+    <circle cx="540" cy="300" r="105"/>
+    <circle cx="440" cy="360" r="85"/>
+    <circle cx="640" cy="360" r="85"/>
+    <circle cx="490" cy="250" r="70"/>
+    <circle cx="590" cy="250" r="70"/>
+  </g>
+  <g fill="#5E9150">
+    <circle cx="470" cy="390" r="55"/>
+    <circle cx="610" cy="390" r="55"/>
+  </g>
+  <!-- Trunk -->
+  <path d="M528 420 L552 420 L560 470 L520 470 Z" fill="#8B5E34"/>
+
+  <!-- Villa -->
+  <path d="M390 520 L540 430 L690 520 Z" fill="#D9B864"/>
+  <rect x="415" y="518" width="250" height="120" fill="#F5EFE0"/>
+  <rect x="515" y="565" width="50" height="73" rx="25" ry="25" fill="#1F4D2E"/>
+  <rect x="445" y="550" width="42" height="42" fill="#1F4D2E"/>
+  <rect x="593" y="550" width="42" height="42" fill="#1F4D2E"/>
+
+  <!-- Ground / grass -->
+  <path d="M330 650 Q540 615 750 650" stroke="#7FB069" stroke-width="14" fill="none" stroke-linecap="round"/>
+
+  <text x="540" y="770" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" font-size="92" fill="#F5EFE0" letter-spacing="2">Milton’s</text>
+  <text x="540" y="860" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" font-size="76" fill="#D9B864" letter-spacing="14">GARDEN</text>
+  <text x="540" y="925" text-anchor="middle" font-family="DejaVu Sans" font-size="30" fill="#F5EFE0" letter-spacing="10">SONARGAON</text>
+</svg>
